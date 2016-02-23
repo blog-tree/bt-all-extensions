@@ -1,0 +1,28 @@
+{
+    "name": "blog-tree/btAllExtensions",
+    "description": "Include all BlogTree extensions for quick start work with it",
+    "keywords": ["application", "BlogTree", "core"],
+    "license": "MIT",
+    "type": "project",
+    "minimum-stability": "dev",
+    "support": {
+        "forum": "http://blog-tree.com",
+        "issues": "http://blog-tree.com"
+    },
+    "homepage": "http://blog-tree.com",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/blog-tree/bt-core.git"
+        }
+    ],
+    "require": {
+        "blog-tree/btCore": "dev-develop"
+    },
+    "authors": [
+        {
+            "name": "Alexander Zagovorichev",
+            "email": "zagovorichev@gmail.com"
+        }
+    ]
+}
