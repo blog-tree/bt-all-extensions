@@ -1,5 +1,5 @@
 {
-    "name": "blog-tree/btAllExtensions",
+    "name": "blog-tree/application",
     "description": "Include all BlogTree extensions for quick start work with it",
     "keywords": ["application", "BlogTree", "core"],
     "license": "MIT",
