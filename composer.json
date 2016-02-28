@@ -3,7 +3,6 @@
     "description": "Include all BlogTree extensions for quick start work with it",
     "keywords": ["application", "BlogTree", "core"],
     "license": "MIT",
-    "type": "project",
     "minimum-stability": "dev",
     "support": {
         "forum": "http://blog-tree.com",
@@ -13,11 +12,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/blog-tree/bt-core.git"
+            "url": "https://github.com/blog-tree/lib-bt-branch-installer.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/blog-tree/bt-root.git"
         }
     ],
     "require": {
-        "blog-tree/btCore": "dev-develop"
+        "blog-tree/bt-root": "dev-develop"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.6",
