@@ -9,16 +9,6 @@
         "issues": "http://blog-tree.com"
     },
     "homepage": "http://blog-tree.com",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/blog-tree/lib-bt-branch-installer.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/blog-tree/bt-root.git"
-        }
-    ],
     "require": {
         "blog-tree/bt-root": "dev-develop"
     },
