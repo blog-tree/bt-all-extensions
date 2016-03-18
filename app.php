@@ -17,10 +17,14 @@
  * Copyright (c) 2016 (original work) Blog-Tree.com;
  */
 
+$composerAutoLoader = __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+
+if (!is_readable($composerAutoLoader)) {
+    die('You should run `composer install`');
+}
+
 /**
- * Web server should looking here, and nowhere else
+ * Use composer for PSR class auto loader.
+ * https://getcomposer.org/doc/01-basic-usage.md
  */
-
-require_once __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'app.php';
-
-echo "Here";
+require_once $composerAutoLoader;
