@@ -11,7 +11,7 @@
     "homepage": "http://blog-tree.com",
     "require": {
         "blog-tree/bt-root": "dev-develop",
-        "blog-tree/lib-bt-kernel": "dev-master"
+        "blog-tree/lib-bt-kernel": "dev-develop"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.6",
